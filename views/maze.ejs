@@ -1,0 +1,19 @@
+<header>
+<link rel="stylesheet" href="/stylesheets/style.css">
+</header>
+<body>
+<h1>YOUR MAZE</h1>
+<table>
+<!-- le tableau labyrinthe récupéré du back end est relié au dossier image représentant chacun des composants du lab-->
+<% for(var i=0;i<mazeArray.length;i++){ 
+   %> <tr> <%
+    for(var j=0;j<mazeArray[i].length;j++) { 
+    %>
+
+  <td><img src='images/<%=mazeArray[i][j]%>.jpeg' class='wazebuild'/></td> 
+
+    <% } %>
+    </tr>
+<% } %>
+</table>
+</body>
