@@ -1,5 +1,5 @@
 
-L'algorithme associe une valeur unique à chaque cellule (leur numéro de séquence, par exemple) et part d'un labyrinthe où tous les murs sont fermés.
+L'algorithme (/routes/index) associe une valeur unique à chaque cellule (leur numéro de séquence, par exemple) et part d'un labyrinthe où tous les murs sont fermés.
 
 À chaque itération, on choisit un mur à ouvrir de manière aléatoire.
 
